@@ -482,3 +482,9 @@
 .btn-outline-light {
     color: #000;
 }
+
+.btn-light {
+    color: #000;
+    background-color:#DAA520;
+    border-color: #FFD700;
+}
