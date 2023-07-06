@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    --gold: #DAA520;
     --light: #F0FBFC;
     --dark: #181d38;
 }
@@ -97,7 +97,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--gold);
 }
 
 @media (max-width: 991.98px) {
@@ -192,8 +192,8 @@
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--gold);
+    border-color: var(--gold);
 }
 
 .page-header {
@@ -226,7 +226,7 @@
     height: 2px;
     top: 4px;
     left: -40px;
-    background: var(--primary);
+    background: var(--gold);
     z-index: -1;
 }
 
@@ -237,7 +237,7 @@
     height: 2px;
     bottom: 5px;
     left: -60px;
-    background: var(--primary);
+    background: var(--gold);
     z-index: -1;
 }
 
@@ -260,7 +260,7 @@
 
 .service-item:hover {
     margin-top: -10px;
-    background: var(--primary);
+    background: var(--gold);
 }
 
 .service-item * {
@@ -337,7 +337,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
-    background: var(--primary) !important;
+    background: var(--gold) !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text * {
@@ -362,8 +362,8 @@
 }
 
 .testimonial-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--gold);
+    border-color: var(--gold);
 }
 
 
@@ -375,15 +375,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--light);
+    color: var(--dark);
     font-weight: normal;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #0a0909;;
     border-radius: 35px;
     transition: .3s;
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: var(--gold);
 }
 
 .footer .btn.btn-link {
@@ -414,7 +414,8 @@
 .footer .copyright {
     padding: 25px 0;
     font-size: 15px;
-    border-top: 1px solid rgba(256, 256, 256, .1);
+    border-top: 1px;
+    color: #B8860B;
 }
 
 .footer .copyright a {
@@ -425,12 +426,22 @@
     margin-right: 15px;
     padding-right: 15px;
     border-right: 1px solid rgba(255, 255, 255, .1);
+    color: #000;
 }
 
 .footer .footer-menu a:last-child {
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+    color: #000;
+}
+
+.footer  .bg-color {
+    background-color: #B8860B;
+}
+
+.footer .btn-outline-light {
+    color: #000;
 }
 
 /*** Logo ***/
@@ -453,4 +464,21 @@
     height: 100px;
     background:#ffffffcb;
 }
-  
+
+/** Colors **/
+/**    gold #FFD700	(255,215,0)
+ 	dark golden rod	#B8860B	(184,134,11)
+ 	golden rod	#DAA520	(218,165,32)
+ 	pale golden rod	#EEE8AA	(238,232,170)
+ 	dark khaki	#BDB76B	(189,183,107)       
+**/ 
+
+.btn-primary {
+    color: #000;
+    background-color: #FFD700;
+    border-color: #FFD700;
+}
+
+.btn-outline-light {
+    color: #000;
+}
