@@ -65,7 +65,7 @@
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">View More<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block text-dark">View More<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -89,7 +89,8 @@
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-centery px-3" style="color: #DAA520;">Contact Us</h6>
-                <h1 class="mb-5" style="color: #DAA520;">Get in Touch with Us for Any Query</h1>
+                <!-- <h1 class="mb-5" style="color: #DAA520;">Get in Touch with Us for Any Query</h1> -->
+                <h1 class="mb-5" style="color: #DAA520;">We are here to help you and answer any and all your questions. Just fill out the information below:</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -128,31 +129,33 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
                                     <label for="email">Your Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                    
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
                                     <label for="subject">Subject</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px" required></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                            </div>
+                            <!-- <div class="col-lg-4"> -->
+                                <button class="btn btn-primary w-100 py-3 text-dark" type="submit">Send Message</button>
+                                <!-- <a href="sent.html" class="btn btn-primary w-100 py-3 text-dark col-lg-4" type="submit">Send Message</a> -->
+                            <!--</div> -->
                             <div class="form-floating">
                                 <input type="reset" class="form-control" id="reset" hidden>
                             </div>
@@ -235,7 +238,11 @@
     <!-- Back to Top -->
     <!--<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
 
-
+    <script>
+        function myFunction() {
+          window.location.href="sent.html";  
+        }
+    </script>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
