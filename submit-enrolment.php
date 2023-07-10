@@ -7,7 +7,7 @@
             $course= $_POST['course'];
             $message= $_POST['message'];
             
-            $to = "nztunjera@gmail.com";
+            $to = "talentpachena40@gmail.com";
             $subject = "This is the subject line";
             
             // The following text will be sent
