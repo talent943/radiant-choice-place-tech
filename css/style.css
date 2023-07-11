@@ -488,3 +488,52 @@
     background-color:#DAA520;
     border-color: #FFD700;
 }
+
+/** changing button color on mouse hover **/
+.btn-primary:hover {
+    color: #000;
+    background-color: #FFD700;
+    border-color: #FFD700;
+}
+
+.btn.btn-primary, .btn.btn-secondary {
+    color: black;
+    border-color: #000;
+}
+
+input[type=text]:focus {
+    border: 3px solid #FFD700;
+}
+
+input[type=email] {
+    border: 3px solid #FFD700;
+}
+
+input[type=email]:focus {
+    border: 3px solid #FFD700;
+}
+
+input[type=t] {
+    border: 3px solid #FFD700;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #FFD700;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+.textarea {
+    resize: vertical;
+    border-color: #FFD700;
+}
+
+.textarea:focus {
+    resize: vertical;
+    border-color: solid #FFD700;
+}
